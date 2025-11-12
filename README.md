@@ -12,8 +12,8 @@ Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru
 * **Pagina de Login**: Un design care simuleză apelul către backend prin preluarea și verificarea credențialelor (username și parolă) din fișierul JSON.
 * **Formular de Contact**: Un exemplu de formular prin care clienții se pot programa online.
 * **Design Responsive**: Site-ul se adaptează automat la orice dimensiune de ecran (desktop, tabletă sau telefon).
-
-  ## 💻 Tehnologii Folosite
+  
+## 💻 Tehnologii Folosite
 
  ## 🔧 Rularea locală
 
