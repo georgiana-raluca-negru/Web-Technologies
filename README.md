@@ -6,7 +6,7 @@ Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru
 ## ✨ Functionalitățile principale și paginile web 
 În cadrul acestui site se pot identifica:
 
-* **Pagina de AcasĂ**: Constituie o prezentare generală atractivă a clinicii, însoțită de o mică galerie foto.
+* **Pagina de Acasă**: Constituie o prezentare generală atractivă a clinicii, însoțită de o mică galerie foto.
 * **Pagina de Servicii Veterinare** : O listă detaliată a serviciilor medicale oferite pacienților (Analize de laborator, Chirurgie, Pediatrie etc.), organizate astfel încât să avantajeze aranjarea în pagină.
 * **Pagina dedicată Ambulanței veterinare**: Descrierea serviciului non-stop de ambulanță veterinară, alături de o miniatură a unei ambulanțe realizate în CSS.
 * **Pagina de Login**: Un design care simuleză apelul către backend prin preluarea și verificarea credențialelor (username și parolă) din fișierul JSON.
