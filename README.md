@@ -33,3 +33,5 @@ Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru
     * Selectează **"Open with Live Server"**.
     * Proiectul se va deschide automat în browser la adresa corectă.
     
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Numele%20Tău-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/profilul-tau)
