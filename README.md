@@ -19,7 +19,7 @@ Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru
 
 1.  Clonează acest repository:
     ```bash
-    git clone [https://github.com/georgiana-raluca-negru/Web-Technologies](https://github.com/georgiana-raluca-negru/Web-Technologies)
+    git clone https://github.com/georgiana-raluca-negru/Web-Technologies
     ```
 2.  Navighează în folderul proiectului:
     ```bash
