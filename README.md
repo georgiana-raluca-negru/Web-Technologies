@@ -22,7 +22,7 @@ Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru
 
 ## 🌐 Demo Live
 Proiectul se poate vizualiza de aici:
-**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/html/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/html/acasa.html)**
+**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/html/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html)**
 
  ## 🔧 Rularea locală
 
