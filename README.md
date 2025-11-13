@@ -19,6 +19,11 @@ Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru
 * ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) Pentru stilizări (culori, fonturi, layout). M-am utilizat de funcționalități precum FlexBox, Grid.
 
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) Pentru interactivitate și aspect dinamic al paginilor.
+
+## 🌐 Demo Live
+Proiectul se poate vizualiza de aici:
+**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/html/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/html/acasa.html)**
+
  ## 🔧 Rularea locală
 
 1.  Clonează acest repository:
