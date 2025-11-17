@@ -21,7 +21,7 @@ This application features a variety of interactive elements and structured layou
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) Powering the interactivity, DOM manipulation, and JSON data handling.
 
 ## 🌐 Live Demo
-**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/HTML/acasa.html)**
+**[https://georgiana-raluca-negru.github.io/Web-Technologies/HTML/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/HTML/acasa.html)**
 
  ## 🔧 Local Installation & Setup
 
@@ -29,13 +29,9 @@ This application features a variety of interactive elements and structured layou
     ```bash
     git clone https://github.com/georgiana-raluca-negru/Web-Technologies
     ```
-2.  Navigate to the project directory:
-    ```bash
-    cd Proiect
-    ```
-3.  **Important Note**: This project uses the `fetch()` API to load login data from a JSON file. Therefore, the login functionality will not work if you simply double-click `index.html` to open it from your file explorer. You must run it through a local server.
+2.  **Important Note**: This project uses the `fetch()` API to load login data from a JSON file. Therefore, the login functionality will not work if you simply double-click `index.html` to open it from your file explorer. You must run it through a local server.
 
-4.  The easiest way to view the project is using the **Live Server** extension in Visual Studio Code:
+3.  The easiest way to view the project is using the **Live Server** extension in Visual Studio Code:
     * Ensure the Live Server extension is installed.
     * Right-click on the `index.html` file in your Explorer sidebar.
     * Select **Open with Live Server**.
