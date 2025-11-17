@@ -21,7 +21,7 @@ This application features a variety of interactive elements and structured layou
 * ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) Powering the interactivity, DOM manipulation, and JSON data handling.
 
 ## 🌐 Live Demo
-**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html)**
+**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/HTML/acasa.html)**
 
  ## 🔧 Local Installation & Setup
 

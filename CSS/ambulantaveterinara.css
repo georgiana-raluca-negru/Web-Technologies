@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Monserrat", sans-serif;
+}
+
+@counter-style paw {
+    system: cyclic;
+    symbols: "\1F43E";
+    suffix: " "
+}
+h1 {
+    color: #51AF2C;
+}
+h2 {
+    color:#51AF2C;
+}
+.checkmark {
+    padding: 4px 0px 4px 25px;
+    list-style: paw;
+    font-weight: 400;
+}
+
+ul .lista {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+ul li .lista {
+    display: list-item;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "content imagine"
+        "textt textt"
+        "ambulance-animation ambulance-animation";
+    font-family: "Montserrat", sans-serif;
+    grid-gap: 1.2rem;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+#textt {
+    grid-area: textt;
+}
+#content {
+    grid-area: content;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+#imagine {
+    grid-area: imagine;
+    padding-bottom: 20px;
+}
+.imgpets {
+    border-radius: 999px;
+    width: 105%;
+    height: 16.87rem;
+    object-fit: cover;
+    transform: translateX(-16px);
+    overflow: hidden;
+}
+
+
+nav {
+    margin: 0;
+    grid-area: nav;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 1.5rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    border-bottom: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    width: 15%;
+    left: 8.130rem;
+}
+
+nav ul li .dropdown>div {
+    translate: 0 -100%;
+    transition: all 0.5s 0.1s;
+    position: relative;
+    background: #b3ffb3;
+    text-align: center;
+}
+
+nav ul li .dropdown a {
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.container:not(header, nav) {
+    margin: 0rem 9.375rem;
+}
+
+nav ul li .dropdown a:hover {
+    background: #51AF2C;
+    color: white;
+}
+
+nav ul li:hover>.dropdown>div {
+    translate: 0;
+}
+
+nav ul li:nth-child(1):hover> {
+    translate: 0;
+}
+
+nav ul li:nth-child(2):hover> {
+    translate: 100%;
+}
+
+nav ul li:nth-child(3):hover> {
+    translate: 200%;
+}
+
+nav ul li:nth-child(4):hover> {
+    translate: 300%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0rem 1.7rem;
+}
+
+nav ul li a {
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: rgb(17, 228, 73);
+}
+
+nav ul li,
+nav ul li a,
+nav ul li a > button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+nav ul li a > button {
+    padding: 0.563rem 2rem;
+    background-color: rgba(90, 209, 94, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+nav ul li a > button:hover {
+    background-color: rgba(90, 209, 94, 0.8);
+    transform: scale(1.1);
+}
+@media (max-width:500px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-areas:
+            "header"
+            "nav"
+            "content"
+            "imagine"
+            "textt"
+            "ambulance-animation";
+        grid-gap: 1.2rem;
+        margin: 0 1.25rem;
+    }
+    nav {
+        display: none;
+    }
+    .ambulance-animation {
+        display: none;
+    }
+}
+
+@keyframes driving {
+
+    100% {
+        transform: scale(2) translateX(-10vw);
+    }
+
+    0% {
+        transform: translateY(0vh) translateX(100vw) scale(2);
+    }
+
+}
+
+@keyframes headlight-beam-animation {
+    0% {
+      border-top: 10px solid transparent;
+      border-left: 40px solid rgba(255,255,255,0.2);
+      border-bottom: 20px solid transparent;
+    }
+    50% {
+      border-top: 10px solid transparent;
+      border-left: 40px solid rgba(255,255,255,0.8);
+      border-bottom: 20px solid transparent;
+    }
+    100% {
+      border-top: 10px solid transparent;
+      border-left: 40px solid rgba(255,255,255,0.2);
+      border-bottom: 20px solid transparent;
+    }
+}
+@keyframes headlight-flash-animation {
+    0% { 
+      background-color: #fff; box-shadow: 0 0 3px #004A7F;
+    }
+    50% {
+      background-color: #fff; box-shadow: 0px 0px 00px #fff
+        
+    }
+    100% { background-color: #fff; box-shadow: 0 0 3px #004A7F; }
+}
+
+@keyframes glowing {
+    0%, 50%, 100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+    25%, 75% { background-color: #0094FF; box-shadow: 0px 0px 100px 25px #0094FF; }
+}
+
+
+.ambulance-animation {
+    grid-area: ambulance-animation;
+    padding-top: 60px;
+}
+#light-button {
+    position:absolute;
+  }
+
+.light {
+    width:2px;
+    height:2px;
+    background-color:black;
+    position: absolute;
+    z-index:100;
+}
+
+.light--blue {
+    background-color:#0094FF;
+}
+
+.light--flash {
+    animation: glowing 0.5s linear infinite;
+}
+
+.headlight--flash {
+    animation: headlight-flash-animation 0.5s linear infinite;
+} 
+
+.headlight--flash::before {
+    animation: headlight-beam-animation 0.5s linear infinite;
+}
+
+.light--flash-offset {
+    animation-delay: 0.25s;
+    right:0px;
+}
+
+
+
+
+.ambulance {
+    width:10%;
+    position: relative;
+    animation-duration: 5s;
+    transform: scale(0) translateX(10vw);
+    animation-name: driving;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.ambulance__bonnet {
+    z-index: 0;
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    left: 30px;
+    position: relative;
+}
+
+.ambulance__bonnet::before {
+    content: '';
+    position: relative;
+    display: block;
+    width: 0;
+    height: 0;
+    top: -26px;
+    border-bottom: 30px solid red;
+    border-left: 20px solid transparent;
+    left: -6px;
+    z-index: 1;
+}
+
+.ambulance__bonnet::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: -31px;
+    left: -15px;
+    border-bottom: 10px solid red;
+    border-left: 20px solid transparent;
+    z-index: 0;
+}
+
+.ambulance__headlight::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -9px;
+    left: -35px;
+}
+
+.ambulance__headlight {
+    background: #efefef;
+    width: 4px;
+    top: -1px;
+    position: relative;
+    height: 3px;
+}
+
+.ambulance__bumper {
+    background-color: red;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -11px;
+    left: 16px;
+}
+
+.ambulance__cab {
+    position: relative;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 4px;
+    border-bottom: 30px solid #020202;
+    border-left: 20px solid transparent;
+    left: 26px;
+    z-index: 2;
+}
+
+.ambulance__cab::before {
+    width: 10px;
+    height: 8px;
+    background-color: red;
+    display: block;
+    content: '';
+    position: absolute;
+    left: -6px;
+    border-top-left-radius: 100%;
+    top: -1px;
+    z-index: 2;
+}
+
+.ambulance__cab::after {
+    z-index: 0;
+    width: 2px;
+    height: 30px;
+    background-color: #020202;
+    display: block;
+    content: '';
+    position: relative;
+}
+
+.ambulance__side-window::before {
+    width: 10px;
+    height: 15px;
+    background: #020202;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+    border-radius: 2px;
+    content: '';
+    display: block;
+}
+
+.ambulance__side-window {
+    z-index: 2;
+    width: 20px;
+    height: 10px;
+    background: #020202;
+    position: absolute;
+    top: 10px;
+    left: 28px;
+    border-radius: 2px;
+}
+
+.ambulance__box::before {
+    height: 15px;
+    background-color: red;
+    left: -3px;
+    position: relative;
+    width: 3px;
+    top: 10px;
+    display: block;
+    content: '';
+}
+
+.ambulance__box {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    width: 75px;
+    height: 50px;
+    background-color: red;
+}
+
+.ambulance__battenberg-row {
+    position: absolute;
+    top: 34px;
+    left: 29px;
+    z-index: 1;
+    width: 100px;
+}
+
+.ambulance__battenberg-row-upper {
+    position: absolute;
+    top: 24px;
+    left: 45px;
+    width: 100px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.ambulance__battenberg {
+    width: 16px;
+    height: 10px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    background-color: white;
+}
+
+.ambulance__battenberg--alt {
+    background-color: blue;
+}
+
+.ambulance__top-right-light {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.ambulance__top-left-light {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.ambulance__top-right-mid-light {
+    top: 5px;
+    right: 10px;
+    position: absolute;
+}
+
+.ambulance__top-left-mid-light {
+    top: 5px;
+    left: 10px;
+    position: absolute;
+}
+
+.ambulance__wheel {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #5a6d6d;
+    z-index: 2;
+    position: absolute;
+}
+
+.ambulance__wheel::before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    left: 1px;
+    top: 1px;
+    position: relative;
+    background-color: #414141;
+    height: 18px;
+    width: 18px;
+}
+
+.ambulance__wheel--back {
+    top: 39px;
+    left: 20px;
+}
+
+.ambulance__wheel--front {
+    top: 39px;
+    left: 95px;
+}
+.logo {
+    width: 30em;
+    height: 10rem;
+}
