@@ -27,7 +27,7 @@ This application features a variety of interactive elements and structured layou
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/georgiana-raluca-negru/Web-Technologies](https://github.com/georgiana-raluca-negru/Web-Technologies)
+    git clone https://github.com/georgiana-raluca-negru/Web-Technologies
     ```
 2.  Navigate to the project directory:
     ```bash
