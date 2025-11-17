@@ -1,44 +1,42 @@
-# Website Clinică Veterinară _Helpet_
+# Helpet Veterinary Clinic Website
 
-## 🚀 Descrierea și motivația proiectului
-Repository-ul acesta este dedicat proiectului realizat de-a lungul unui semestru, în cadrul cursului de Tehnici Web (Web Technologies). Proiectul constituie un website complet funcțional pentru clinica veterinară fictivă "Helpet".
+## 🚀 Project Overview & Motivation
+This repository contains a comprehensive web project developed over the course of a semester for the Web Technologies curriculum. It is a fully functional, multi-page website designed for a fictional veterinary clinic. The goal was to demonstrate knowledge of core frontend technologies by building a platform that is not only visually appealing but also robust and user-friendly.
 
-## ✨ Functionalitățile principale și paginile web 
-În cadrul acestui site se pot identifica:
+## ✨ Features & Pages
+This application features a variety of interactive elements and structured layouts:
 
-* **Pagina de Acasă**: Constituie o prezentare generală atractivă a clinicii, însoțită de o mică galerie foto.
-* **Pagina de Servicii Veterinare** : O listă detaliată a serviciilor medicale oferite pacienților (Analize de laborator, Chirurgie, Pediatrie etc.), organizate astfel încât să avantajeze aranjarea în pagină.
-* **Pagina dedicată Ambulanței veterinare**: Descrierea serviciului non-stop de ambulanță veterinară, alături de o miniatură a unei ambulanțe realizate în CSS.
-* **Pagina de Login**: Un design care simuleză apelul către backend prin preluarea și verificarea credențialelor (username și parolă) din fișierul JSON.
-* **Formular de Contact**: Un exemplu de formular prin care clienții se pot programa online.
-* **Design Responsive**: Site-ul se adaptează automat la orice dimensiune de ecran (desktop, tabletă sau telefon).
-  
-## 💻 Tehnologii Folosite
-* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) Pentru structura de bază a site-ului.
+* **Homepage**: A welcoming introduction to the clinic, featuring a small photo gallery.
+* **Services Catalog**: A detailed breakdown of medical offerings (Laboratory, Surgery, Pediatrics, etc.). The layout is optimized using modern CSS techniques to present information clearly and attractively.
+* **Emergency & Ambulance Unit**: A dedicated page for non-stop emergency services. This page features a custom miniature ambulance illustration crafted entirely using CSS.
+* **Login Page**: A Login page that mimics backend communication. It utilizes JavaScript `(fetch)` to validate user credentials from a JSON file.
+* **Interactive Appointment Form**: A contact interface allowing clients to request appointments online.
+* **Responsive Design**: The site adapts to any screen size (desktop, tablet, or mobile phone).
+ 
+## 💻 Technologies Used
+* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) Used for the semantic structure.
 
-* ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) Pentru stilizări (culori, fonturi, layout). M-am utilizat de funcționalități precum FlexBox, Grid.
+* ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) Utilized **Flexbox** and **CSS Grid** for complex layouts, custom animations, and responsive adjustments.
 
-* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) Pentru interactivitate și aspect dinamic al paginilor.
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) Powering the interactivity, DOM manipulation, and JSON data handling.
 
-## 🌐 Demo Live
-Proiectul se poate vizualiza de aici:
-**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/html/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html)**
+## 🌐 Live Demo
+**[https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html](https://georgiana-raluca-negru.github.io/Web-Technologies/Proiect/HTML/acasa.html)**
 
- ## 🔧 Rularea locală
+ ## 🔧 Local Installation & Setup
 
-1.  Clonează acest repository:
+1.  Clone the repository:
     ```bash
-    git clone https://github.com/georgiana-raluca-negru/Web-Technologies
+    git clone [https://github.com/georgiana-raluca-negru/Web-Technologies](https://github.com/georgiana-raluca-negru/Web-Technologies)
     ```
-2.  Navighează în folderul proiectului:
+2.  Navigate to the project directory:
     ```bash
     cd Proiect
     ```
-3.  **Notă importantă**: Acest proiect se folosește de `fetch()` pentru a încărca datele de login din fișierul JSON. Din cauza politicilor de securitate ale browser-ului, funcția de login **nu va merge** dacă se deschide `index.html` direct. Proiectul trebuie rulat pe un server local.
+3.  **Important Note**: This project uses the `fetch()` API to load login data from a JSON file. Therefore, the login functionality will not work if you simply double-click `index.html` to open it from your file explorer. You must run it through a local server.
 
-4.  Cea mai simplă metodă este cu extensia **Live Server** din Visual Studio Code:
-    * Asigură-te că ai instalată extensia.
-    * Dă click-dreapta pe fișierul `index.html` din panoul Explorer.
-    * Selectează **"Open with Live Server"**.
-    * Proiectul se va deschide automat în browser la adresa corectă.
-    
+4.  The easiest way to view the project is using the **Live Server** extension in Visual Studio Code:
+    * Ensure the Live Server extension is installed.
+    * Right-click on the `index.html` file in your Explorer sidebar.
+    * Select **Open with Live Server**.
+    * The project will launch automatically in your default browser with full functionality.
